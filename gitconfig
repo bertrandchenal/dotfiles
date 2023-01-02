@@ -1,0 +1,14 @@
+[alias]
+b = branch
+ci = commit
+co = checkout
+d = diff
+st = status -s
+unstage = 'reset HEAD --'
+staged = diff --staged
+
+[user]
+email = bertrandchenal@gmail.com
+
+[credential]
+    helper = store --file ~/.git-credentials
